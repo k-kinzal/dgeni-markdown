@@ -1,0 +1,10 @@
+{
+  "name": "dgeni-markdown",
+  "version": "0.0.0",
+  "devDependencies": {
+    "angular": "~1.2.24"
+  },
+  "dependencies": {
+    "famous-angular": "~0.3.0"
+  }
+}
