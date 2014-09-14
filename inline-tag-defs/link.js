@@ -1,3 +1,4 @@
+// change from https://github.com/angular/dgeni-packages/blob/master/ngdoc/inline-tag-defs/link.js
 var INLINE_LINK = /(\S+)(?:\s+([\s\S]+))?/;
 
 module.exports = function linkInlineTagDef(getLinkInfo, createDocMessage) {

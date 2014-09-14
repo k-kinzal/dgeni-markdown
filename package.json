@@ -20,7 +20,12 @@
     "jsdoc"
   ],
   "author": "k-kinzal",
-  "license": "MIT",
+  "licenses": [
+    {
+      "type": "Apache",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/k-kinzal/dgeni-markdown/issues"
   },
