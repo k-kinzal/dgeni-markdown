@@ -1,0 +1,41 @@
+{
+  "name": "dgeni-markdown",
+  "version": "0.0.1",
+  "description": "dgeni markdown template for generating documentation from source code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k-kinzal/dgeni-markdown.git"
+  },
+  "keywords": [
+    "ngdoc",
+    "angular",
+    "angularjs",
+    "dgeni",
+    "document generation",
+    "javascript",
+    "jsdoc"
+  ],
+  "author": "k-kinzal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/k-kinzal/dgeni-markdown/issues"
+  },
+  "homepage": "https://github.com/k-kinzal/dgeni-markdown",
+  "dependencies": {
+    "dgeni": "~0.4.0",
+    "dgeni-packages": "~0.10.0",
+    "canonical-path": "0.0.2"
+  },
+  "devDependencies": {
+    "time-grunt": "~1.0.0",
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-regarde": "~0.1.1",
+    "grunt-bower-task": "~0.4.0"
+  }
+}
