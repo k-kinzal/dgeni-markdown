@@ -10,6 +10,10 @@ npm install --save-dev dgeni-markdown
 
 or download the css on github and include in your project.
 
+## Example
+
+[https://github.com/k-kinzal/dgeni-markdown-example](https://github.com/k-kinzal/dgeni-markdown-example)
+
 ## Usage
 
 ```js
