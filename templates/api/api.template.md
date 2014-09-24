@@ -30,7 +30,8 @@
 
 ## Dependencies
 
-{% for require in doc.requires %}* {$ require $}{% endfor %}
+{% for require in doc.requires %}
+* {$ require $}{% endfor %}
 
 {% endif -%}
 {% endblock %}
