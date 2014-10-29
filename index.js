@@ -33,6 +33,15 @@ module.exports = new Package('dgeni-markdown', [
   ]));
 })
 // 
+.config(function(computeIdsProcessor, createDocMessage, getAliases) {
+  computeIdsProcessor.idTemplates.push({
+    docTypes: ['controller', 'provider', 'service', 'directive', 'input', 'object', 'function', 'filter', 'type' ],
+    idTemplate: 'module:${module}.${docType}:${name}',
+    getAliases: getAliases
+  });
+
+})
+// 
 .config(function(computePathsProcessor, createDocMessage) {
   computePathsProcessor.pathTemplates = [];
   computePathsProcessor.pathTemplates.push({
