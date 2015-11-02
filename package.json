@@ -31,9 +31,9 @@
   },
   "homepage": "https://github.com/k-kinzal/dgeni-markdown",
   "dependencies": {
-    "dgeni": "~0.4.0",
-    "dgeni-packages": "~0.10.0",
-    "canonical-path": "0.0.2"
+    "canonical-path": "0.0.2",
+    "dgeni": "^0.4.1",
+    "dgeni-packages": "^0.11.0"
   },
   "devDependencies": {
     "grunt": "~0.4.5",
