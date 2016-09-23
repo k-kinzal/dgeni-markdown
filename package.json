@@ -33,7 +33,7 @@
   "dependencies": {
     "canonical-path": "0.0.2",
     "dgeni": "^0.4.2",
-    "dgeni-packages": "^0.11.1"
+    "dgeni-packages": "^0.16.0"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
