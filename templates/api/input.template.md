@@ -1,4 +1,4 @@
-{% include "lib/macros.md" -%}
+{% import "lib/macros.md" as lib -%}
 {% extends "api/directive.template.md" %}
 
 {% block usage %}
@@ -6,7 +6,7 @@
 ```
 <input type="{$ doc.inputType $}"
   {%- for param in doc.params %}
-       {$ directiveParam(param.alias or param.name, param.type, '="', '"') $}
+       {$ lib.directiveParam(param.alias or param.name, param.type, '="', '"') $}
   {%- endfor %}>
 ```
 {% endblock %}
