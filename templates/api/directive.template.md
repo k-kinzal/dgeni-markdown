@@ -1,4 +1,4 @@
-{% include "lib/macros.md" -%}
+{% import "lib/macros.md" as lib -%}
 {% extends "api/api.template.md" %}
 
 {% block additional %}
@@ -22,7 +22,7 @@
     ```
     <{$ doc.name | dashCase $}
       {%- for param in doc.params %}
-      {$ directiveParam(param.alias or param.name, param.type, '="', '"') $}
+      {$ lib.directiveParam(param.alias or param.name, param.type, '="', '"') $}
       {%- endfor %}>
     ...
     </{$ doc.name | dashCase $}>
@@ -33,7 +33,7 @@
     ```
     <{$ doc.element $}
       {%- for param in doc.params %}
-      {$ directiveParam(param.name, param.type, '="', '"') $}
+      {$ lib.directiveParam(param.name, param.type, '="', '"') $}
       {%- endfor %}>
     ...
     </{$ doc.element $}>
@@ -45,7 +45,7 @@
     {% set sep = joiner(' ') %}
     <{$ doc.element $} class="
     {%- for param in doc.params -%}
-      {$ sep() $}{$ directiveParam(param.name, param.type, ': ', ';') $}
+      {$ sep() $}{$ lib.directiveParam(param.name, param.type, ': ', ';') $}
     {%- endfor %}"> ... </{$ doc.element $}>
     ```
 {% endif -%}
