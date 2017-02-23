@@ -1,4 +1,4 @@
-{% include "lib/macros.md" -%}
+{% import "lib/macros.md" as lib -%}
 {% extends "api/api.template.md" %}
 
 {% block additional %}
