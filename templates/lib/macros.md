@@ -4,6 +4,6 @@
 
 {%- macro directiveParam(name, type, join, sep) %}
   {%- if type.optional %}[{% endif -%}
-  {$ name | dashCase $}{$ join $}{$ type.description $}{$ sep $}
+  {$ name | dashCase $}{$ join $}{$ type.name $}{$ sep $}
   {%- if type.optional %}]{% endif -%}
 {% endmacro -%}
