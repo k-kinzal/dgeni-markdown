@@ -15,7 +15,7 @@ module.exports = function linkInlineTagDef(getLinkInfo, createDocMessage) {
           return linkInfo.title;
         }
 
-        return '(' + linkInfo.title + ')[' + linkInfo.url + ']';
+        return '[' + linkInfo.title + '](' + linkInfo.url + ')';
       });
     }
   };
